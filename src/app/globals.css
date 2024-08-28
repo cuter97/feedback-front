@@ -29,6 +29,18 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
+
+    /*custom colors */
+    --color-1: 282 83% 52%;
+    --color-2: 230 76% 59%;
+    --color-3: 230 31% 31%;
+    --color-4: 0 0% 100%;
+    --color-5: 231 100% 97%;
+    --color-6: 230 60% 98%;
+    --color-7: 231 33% 34%;
+    --color-8: 224 20% 49%;
+    --color-9: 14 83% 74%;
+    --color-10: 204 94% 68%;
   }
 
   .dark {
@@ -56,6 +68,18 @@
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+
+    /*custom colors */
+    --color-1: 282 83% 52%;
+    --color-2: 230 76% 59%;
+    --color-3: 230 31% 31%;
+    --color-4: 0 0% 100%;
+    --color-5: 231 100% 97%;
+    --color-6: 230 60% 98%;
+    --color-7: 231 33% 34%;
+    --color-8: 224 20% 49%;
+    --color-9: 14 83% 74%;
+    --color-10: 204 94% 68%;
   }
 }
 
@@ -63,6 +87,7 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
