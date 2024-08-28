@@ -22,6 +22,54 @@ const config = {
             fontFamily: {
                 sans: ["var(--font-sans)", ...fontFamily.sans],
             },
+            fontSize: {
+                h1: [
+                    "24px", {
+                        letterSpacing: "-0.33px",
+                        lineHeight: "35px",
+                        fontWeight: "bold",
+                    }
+                ],
+                h2: [
+                    "20px", {
+                        letterSpacing: "-0.25px",
+                        lineHeight: "29px",
+                        fontWeight: "bold",
+                    }
+                ],
+                h3: [
+                    "18px", {
+                        letterSpacing: "-0.25px",
+                        lineHeight: "26px",
+                        fontWeight: "bold"
+                    }
+                ],
+                h4: [
+                    "14px", {
+                        letterSpacing: "-0.2px",
+                        lineHeight: "20px",
+                        fontWeight: "bold"
+                    }
+                ],
+                bodyOne: [
+                    "16px", {
+                        lineHeight: "23px",
+                        fontWeight: "normal"
+                    }
+                ],
+                bodyTwo: [
+                    "15px", {
+                        lineHeight: "22px",
+                        fontWeight: "normal"
+                    }
+                ],
+                bodyThree: [
+                    "13px", {
+                        lineHeight: "19px",
+                        fontWeight: "600"
+                    }
+                ]
+            },
             colors: {
                 color1: "hsl(var(--color-1))",
                 color2: "hsl(var(--color-2))",
